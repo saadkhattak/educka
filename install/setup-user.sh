@@ -105,9 +105,9 @@ update_conf()
 
 ############### MAIN ###################
 
-USER="devops"
+USER="saadkhattak"
 GROUP="devops"
-passw="jdokuans"
+passw="subi5510"
 
 if [ -f /etc/os-release ];then
    osname=`grep ID /etc/os-release | egrep -v 'VERSION|LIKE|VARIANT' | cut -d'=' -f2 | sed -e 's/"//' -e 's/"//'`
